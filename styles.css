@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: blueviolet;
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  }
+  
+  
+  .wrapper table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.217);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.217);
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  
+  
+  .wrapper table caption {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .wrapper table .t-row>td:first-child {
+    background: #000;
+  }
+  
+  .wrapper table td[colspan="7"],
+  .wrapper table #student {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  
+  .wrapper table th,
+  .wrapper table td {
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+  }
+  
+  .wrapper table th {
+    background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#3c3c3c));
+    background: linear-gradient(0deg, #000000, #3c3c3c);
+    border: none;
+  }
+  
+  .wrapper table th#student {
+    background: linear-gradient(45deg, #02fdf5, #e80252);
+  }
+  
+  .wrapper table td {
+    text-align: center;
+  }
+  
+  .wrapper table .name,
+  .wrapper table .total {
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.217);
+  }
+  
+  .wrapper table .total-score {
+    background: -webkit-gradient(linear, left bottom, left top, from(#01512d), to(#02a09b));
+    background: linear-gradient(0deg, #01512d, #02a09b);
+  }
