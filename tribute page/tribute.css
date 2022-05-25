@@ -1,0 +1,48 @@
+body {
+    background-color: lightskyblue;
+}
+
+#title{
+    background-color: lightgoldenrodyellow;
+    color: red;
+    text-align: center;
+    font-size: 32px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img {
+    width: 540px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caption {
+    font-weight: normal;
+    text-align: center;
+}
+
+.tribute-caption {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    font-weight: bold;
+    color: red;
+}
+p{
+    background-color: lightgreen;
+}
+
+#quote {
+    font-weight: bold;
+    font-size: large;
+    font-style: oblique;
+}
+
+span {
+  font-size: large;  
+}
